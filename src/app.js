@@ -25,8 +25,7 @@ window.onload = function() {
         }
       }
     }
-    return domains;
+    return domains.join("");
   }
-
   document.querySelector("#domain").innerHTML = domain();
 };
